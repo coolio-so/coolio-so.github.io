@@ -22,6 +22,7 @@ package-lock.json
 !.vscode/extensions.json
 !.vscode/tasks.json
 .settings/*
+.project
 
 # Misc
 _sass/vendors
