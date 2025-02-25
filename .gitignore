@@ -27,4 +27,5 @@ package-lock.json
 
 #_sass/vendors
 #assets/js/dist
-/.project
+.project
+.DS_Store
