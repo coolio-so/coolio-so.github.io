@@ -2,7 +2,7 @@
 title: BigDecimal의 소수점 상수 직접 접근 Deprecated에 따른 대응 가이드
 author: coolioso
 date: 2023-10-05 00:00:00 +0800
-categories: [개발이야기, JAVA]
+categories: [개발이야기, Java]
 tags: [BigDecimal, Deprecated, J2SE, Java9, RoundingMode]
 ---
 
