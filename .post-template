@@ -2,7 +2,7 @@
 title: This is a new article
 description:
 author: coolioso
-date: YYYY-mm-dd HH:MM:00
+date: YYYY-mm-dd 00:00:00 +0800
 categories: [Categorise]
 tags: [tags]
 pin: false
