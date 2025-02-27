@@ -11,7 +11,7 @@ tags: [ docker, docker-compose, pgsql, postgres, schemaspy ]
 
  
 
-# docker-compose.yml
+## docker-compose.yml
 
 ```yaml
 version: '3'
@@ -31,7 +31,7 @@ services:
 
  
 
-# schemaspy.properties
+## schemaspy.properties
 
 ```properties
 # type of database. Run with -dbhelp for details
