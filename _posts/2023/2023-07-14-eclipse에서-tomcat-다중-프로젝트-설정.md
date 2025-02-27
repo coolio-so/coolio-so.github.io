@@ -22,7 +22,7 @@ tags: [ eclipse, project, tomcat]
 > WAS에서 WebApps를 배포할 웹 애플리케이션의 `WAR` 파일을 복사해서 WAS를 구동하면 해당 `WAR`의 파일명으로 URL을 입력하여 접근할 수 있다.  
 > 이렇게 접근할 수 있는 `WAR`의 파일명으로 접근할 수 있는 하나의 웹 애플리케이션을 `Context`라고 한다.
 
-![](../cms-assets/posts/2023/0714/Eclipse-Tomcat-Step1.png){: .normal}
+![](/cms-assets/posts/2023/0714/Eclipse-Tomcat-Step1.png){: .normal}
 
 
 
@@ -30,7 +30,7 @@ tags: [ eclipse, project, tomcat]
 
 > 서버의 Modules 정보에서 해당 프로젝트의 `Path`를 변경하면 Context 경로가 변경된다.
 
-![](../cms-assets/posts/2023/0714/Eclipse-Tomcat-Step2.png){: .normal}
+![](/cms-assets/posts/2023/0714/Eclipse-Tomcat-Step2.png){: .normal}
 
 ### 접근 방법
 
@@ -56,7 +56,7 @@ web-oracle 프로젝트 :
 
 > Eclipse에서 WAS를 여러개 구성하여 해당 WAS의 접속하는 포트를 변경하여 다중 프로젝트를 구성하는 방법
 
-![](../cms-assets/posts/2023/0714/Eclipse-Tomcat-Step3.png){: .normal}
+![](/cms-assets/posts/2023/0714/Eclipse-Tomcat-Step3.png){: .normal}
 
 
 
@@ -68,7 +68,7 @@ web-oracle 프로젝트 :
 - HTTP/1.1
 - AJP/1.3
 
-![](../cms-assets/posts/2023/0714/Eclipse-Tomcat-Step4.png){: .normal}
+![](/cms-assets/posts/2023/0714/Eclipse-Tomcat-Step4.png){: .normal}
 
 
 
@@ -95,7 +95,7 @@ web-oracle 프로젝트 :
 - HTTP 프로토콜은 stateless하기 때문에 요청시마다 새로운 연결이 생성되고 응답후 연결은 끊기게 되므로 상태를 유지할 수 없다.
 - 따라서, 상태를 저장하기 위해서 톰캣은 JESSESIONID 쿠키를 클라이언트에게 발급해주고 이 값을 통해 세션을 유지할 수 있도록 한다.
 
-![](../cms-assets/posts/2023/0714/Eclipse-Tomcat-Step5.png){: .normal}
+![](/cms-assets/posts/2023/0714/Eclipse-Tomcat-Step5.png){: .normal}
 
 ### 해당 문제에 대한 해결 방법
 
@@ -107,7 +107,7 @@ web-oracle 프로젝트 :
 Eclipse의 Servers > Tomcat x.x config > server.xml
 ```
 
-![](../cms-assets/posts/2023/0714/Eclipse-Tomcat-Step6.png){: .normal}
+![](/cms-assets/posts/2023/0714/Eclipse-Tomcat-Step6.png){: .normal}
 
 ⁠
 
@@ -120,4 +120,4 @@ Eclipse의 Servers > Tomcat x.x config > server.xml
 
 #### JSESSIONID값 변경 후 정보
 
-![](../cms-assets/posts/2023/0714/Eclipse-Tomcat-Step7.png){: .normal}
+![](/cms-assets/posts/2023/0714/Eclipse-Tomcat-Step7.png){: .normal}
