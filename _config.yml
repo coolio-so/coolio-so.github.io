@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: "CoolioSo Blog" # the main title
 
-tagline: "짜루의 개인 블로그" # it will display as the subtitle
+tagline: "떵짜루의 개인 블로그" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

@@ -27,7 +27,7 @@ mermaid: true
 2. `Addtional actions` 체크
 - 저장시에 추가적인 액션에 대한 정의
 
-![Save Actions 설정 창](../../cms-assets/posts/2022/0818/java-save-action-step1.png){: .normal}
+![Save Actions 설정 창](/cms-assets/posts/2022/0818/java-save-action-step1.png){: .normal}
 
 #### Code Organizing
 
@@ -35,14 +35,14 @@ mermaid: true
   - 공백 제거 : `Remove trailing whitespace > All lines`
   - 들여쓰기 : `Correct indentation`
 
-![Code Organizing 설정](../../cms-assets/posts/2022/0818/java-save-action-step2.png){: .normal}
+![Code Organizing 설정](/cms-assets/posts/2022/0818/java-save-action-step2.png){: .normal}
 
 #### Code Style
 
 - Control statements 설정
   - 블록 구분자 : `Use blocks in if/while/for/do statements > Always`
 
-![Code Style 설정](../../cms-assets/posts/2022/0818/java-save-action-step3.png){: .normal}
+![Code Style 설정](/cms-assets/posts/2022/0818/java-save-action-step3.png){: .normal}
 
 #### Missing Code
 
@@ -53,7 +53,7 @@ mermaid: true
     - `@Override`
     - `@Deprecated
 
-![Missing Code 설정](../../cms-assets/posts/2022/0818/java-save-action-step4.png){: .normal}
+![Missing Code 설정](/cms-assets/posts/2022/0818/java-save-action-step4.png){: .normal}
 
 #### Unnecessary Code
 
@@ -63,4 +63,4 @@ mermaid: true
   - 불필요한 Cast 제거 : `Remove unnecessary casts`
   - 불필요한 `$NON-NLS$` 태그 제거 : `Remove unnecessary '$NON-NLS$' tags`
 
-![Unused Code](../../cms-assets/posts/2022/0818/java-save-action-step5.png){: .normal}
+![Unused Code](/cms-assets/posts/2022/0818/java-save-action-step5.png){: .normal}

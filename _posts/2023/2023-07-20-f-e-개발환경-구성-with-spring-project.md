@@ -19,7 +19,7 @@ mermaid: true
 - B/E 프로젝트 : `/src/main`
 - F/E 프로젝트 : `/src/node`
 
-![](../../cms-assets/posts/2023/0720/fe-configuration-with-spring-step1.png){: .normal}
+![](/cms-assets/posts/2023/0720/fe-configuration-with-spring-step1.png){: .normal}
 
 ## NPM 초기화
 
